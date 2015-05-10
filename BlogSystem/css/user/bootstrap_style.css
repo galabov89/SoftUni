@@ -1,0 +1,26 @@
+#img-container{
+    clear: both;
+}
+
+.list-group{
+    height: 70%;
+    overflow:hidden;
+    overflow-y:scroll;
+}
+
+.jumbotron{
+    margin: 50px;
+
+}
+
+#category-div{
+    clear: right;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+.tag-class{
+    clear: right;
+}

@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header------------------------------------------- */
+
+#header-div 
+{
+	background-color: green;
+	margin-bottom: 5%;
+	padding: 10px;
+	background-color: #909daa;
+	border-bottom: 2px solid #283d4c;
+}
+
+/* Section ------------------------------------------- */
+
+#section-div 
+{
+	background-color: #e3edfa;
+	border: 2px solid #ccd6e3;
+	border-radius: 5px;
+	float: left;
+	width: 70%;
+	height: 62%;
+	margin-left: 5%;
+	margin-right:1%;
+	margin-bottom: 5%;
+	padding: 1%;
+}
+
+#section-div  p{
+	float: right;
+	padding-bottom: 5px;
+	margin-bottom: 1%;
+	border-bottom: 1px solid #ccd6e3;
+	width: 100%;
+}
+
+#image-div{
+	
+	width: 200px;
+	float: left;
+}
+
+#image-div img{
+	width: 200px;
+	height: 200px;
+}
+
+#image-div p{
+	background-color: #909daa;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#content-div{
+	float: right;
+}
+
+label { display: block; width: 100px; }
+
+/* Aside------------------------------------------- */
+
+#aside-div 
+{
+	background-color: #e3edfa;
+	border: 2px solid #ccd6e3;
+	width: 14%;
+	border-radius: 5px;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	float: left;
+}
+
+#aside-title{
+	border-bottom: 1px solid #ccd6e3;
+}
+
+#aside-list{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccd6e3;
+	
+}
+
+#aside-div p{
+	text-align: center;
+	font-family: Verdana;
+	padding-bottom: 5px;
+}
+
+#aside-list ul{
+	 height: 50%;
+	 overflow:hidden;
+	 overflow-y:scroll;
+}
+
+#aside-list ul li{
+	list-style: none;
+}
+
+#aside-view{
+	padding-top: 10px;
+}
+
+#aside-view p {
+	float: right;
+}
+
+/* Footer------------------------------------------- */
+
+#footer-div 
+{	
+	background-color: #909daa;
+	border-top: 2px solid #283d4c;
+	clear:both;
+	position: absolute;
+	padding: 10px;
+	bottom: 0px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#footer-div p{
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #283d4c;
+}
